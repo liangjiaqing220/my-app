@@ -1,0 +1,161 @@
+@mixin wh($w:100%,$h:100%) {
+     width: $w;
+     height: $h;
+}
+@mixin dis($column){
+    display: flex;
+    flex-direction: $column;
+    overflow: hidden; 
+}
+
+html{
+    @include wh();
+  
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    @include wh();
+    font-size: 28px;
+}
+
+.App{
+    @include dis(column);
+    @include wh();
+   
+    footer{
+        text-align: center;
+        border-top: 1px #aaa solid;
+        @include wh(100%,97px);
+       align-items: center;
+       @include dis(row);
+       justify-content: space-evenly;
+       
+    }
+    main{
+        flex: 1;
+        overflow: scroll;
+    }
+}
+.home{
+    @include wh();
+    @include dis(column);
+    
+    header{
+
+      text-align: center;
+      line-height: 100px;
+        @include wh(100%,100px);
+        font-size: 32px;
+        font-weight: bold;
+
+    }
+    main{
+        flex: 1;
+        overflow: scroll;
+        .address{
+            @include dis(row);
+            @include wh(100%,95px);
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            color: #999999;
+            font-size: 24px;
+        
+        }
+        .swiper{
+            @include wh(100%,270px);
+            img{
+                @include wh();
+            }
+        }
+       .Nine{
+             margin-top: -28px;
+               @include dis(row);
+               flex-wrap: wrap;
+               img{
+                   @include wh(95px,78px);
+               }
+               font-size: 22px;
+               justify-content: space-evenly;
+               text-align: center;
+              >div{
+                  margin-top: 46px;
+              } 
+              color: #8f8f8f;
+       }
+       .everyday{
+           margin-top: 64px;
+           .mei{
+               @include dis(row);
+               h3{
+                margin-left: 40px;
+                font-size: 32px;
+               }
+               span{
+                   font-size: 24px;
+                   margin-top: 5px;
+                   margin-left: 14px;
+               }
+           }
+           .Three{
+               margin-top: 22px;
+               @include dis(row);
+               justify-content: space-between;
+               img{
+                   display: block;
+                   @include wh(249px,297px)
+
+               }
+           }
+           
+       }
+       .tab{
+        @include wh(100%,92px);
+        @include dis(row);
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 26px;
+       
+        
+    }
+     .tabs{
+         position: relative;
+         .beautiful{
+             
+            position: absolute;
+            top: 32px;
+             left: 30px;
+            @include wh(60px,67px);
+            img{
+                @include wh();
+            }
+         }
+         @include wh();
+        .lis{
+            border-top: solid 1px #aaa;
+            @include wh(100%,301px);
+         
+            dl{
+                @include dis(row);
+                  
+                justify-content: space-evenly;
+                dt{
+                   height: 100%;
+                    line-height: 301px;
+                }
+                img{
+                    margin-top: 65px;
+                    display: block;
+                    @include wh(240px,195px);
+                }
+            }
+        }
+     }
+    }
+ .hong{
+     color: #f00;
+ }
+}

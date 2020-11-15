@@ -1,0 +1,8 @@
+@fnord:  "I am fnord.";
+@var:    "aa";
+ @aa:  @@bb;
+@bb:"c";
+@c:300px;
+#wrap::after{
+  content: @@var; //将=@var替换为其值 content:@fnord;
+}

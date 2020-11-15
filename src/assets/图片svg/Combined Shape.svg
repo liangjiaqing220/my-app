@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="86px" height="86px" viewBox="0 0 86 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="750" height="208" rx="12"></rect>
+        <filter x="-3.3%" y="-27.6%" width="106.7%" height="157.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.120612545 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="130" height="98"></rect>
+        <path d="M41,28.996749 C40.9044726,28.9989127 40.8087317,29 40.7128,29 L39.0008,29 C37.8948,29 37.0008,28.106 37.0008,27 C37.0008,25.894 37.8948,25 39.0008,25 L40.7128,25 C43.1388,25 45.3148,24.024 46.3908,22.454 C46.8388,21.796 47.2728,20.75 46.7808,19.486 L44.6528,14.006 C44.4608,13.512 43.6228,13 42.5508,13 L11.4488,13 C10.3768,13 9.5388,13.512 9.3468,14.006 L7.2188,19.486 C6.7268,20.75 7.1608,21.796 7.6088,22.454 C8.6848,24.024 10.8588,25 13.2868,25 L15.0008,25 C16.1048,25 17.0008,25.894 17.0008,27 C17.0008,28.106 16.1048,29 15.0008,29 L13.2868,29 C13.1910022,29 13.0953946,28.9989157 13,28.9967581 L13,39 C13,42.308 15.692,45 19,45 L39,45 C40.104,45 41,45.894 41,47 C41,48.106 40.104,49 39,49 L19,49 C13.486,49 9,44.514 9,39 L9,28.2388234 C7.04646928,27.5102396 5.38793324,26.2895616 4.3088,24.712 C2.9248,22.694 2.6268,20.26 3.4908,18.038 L5.6188,12.556 C6.4448,10.43 8.7868,9 11.4488,9 L42.5508,9 C45.2128,9 47.5548,10.43 48.3808,12.556 L50.5088,18.038 C51.3728,20.26 51.0748,22.694 49.6908,24.712 C48.6117404,26.289454 46.9533571,27.5100729 45,28.2386742 L45,40.4668 C45,41.5728 44.104,42.4668 43,42.4668 C41.896,42.4668 41,41.5728 41,40.4668 L41,28.996749 Z M31,29 L23,29 C21.896,29 21,28.106 21,27 C21,25.894 21.896,25 23,25 L31,25 C32.104,25 33,25.894 33,27 C33,28.106 32.104,29 31,29 Z" id="path-4"></path>
+        <filter x="-4.2%" y="-2.5%" width="108.3%" height="110.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0887681159 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="团购详情" transform="translate(-23.000000, -2891.000000)">
+            <g id="Group-15-Copy-2" transform="translate(0.000000, 2775.000000)">
+                <g id="Rectangle-2"></g>
+                <g id="Mask">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#EDEDED" stroke-width="0.5" x="-0.25" y="-0.25" width="750.5" height="208.5" rx="12"></rect>
+                </g>
+            </g>
+            <g id="发起团购" filter="url(#filter-2)" transform="translate(0.000000, 2894.000000)">
+                <g id="Group-5">
+                    <g id="b-g11">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <rect stroke="#EDEDED" stroke-width="0.5" x="-0.25" y="-0.25" width="130.5" height="98.5"></rect>
+                    </g>
+                    <g id="工具" transform="translate(44.000000, 70.000000)" fill="#FE3113" font-family="PingFangSC-Regular, PingFang SC" font-size="22" font-weight="normal" line-spacing="22">
+                        <text id="首页">
+                            <tspan x="0" y="23">首页</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-11" transform="translate(39.000000, 13.000000)">
+                        <g id="Group-10">
+                            <g id="Combined-Shape">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                                <use fill="#FE3113" fill-rule="evenodd" xlink:href="#path-4"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

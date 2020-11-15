@@ -1,0 +1,200 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 28px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.App footer {
+  text-align: center;
+  border-top: 1px #aaa solid;
+  width: 100%;
+  height: 97px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  justify-content: space-evenly;
+}
+
+.App main {
+  flex: 1;
+  overflow: scroll;
+}
+
+.home {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.home header {
+  text-align: center;
+  line-height: 100px;
+  width: 100%;
+  height: 100px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.home main {
+  flex: 1;
+  overflow: scroll;
+}
+
+.home main .address {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  width: 100%;
+  height: 95px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  color: #999999;
+  font-size: 24px;
+}
+
+.home main .swiper {
+  width: 100%;
+  height: 270px;
+}
+
+.home main .swiper img {
+  width: 100%;
+  height: 100%;
+}
+
+.home main .Nine {
+  margin-top: -28px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  flex-wrap: wrap;
+  font-size: 22px;
+  justify-content: space-evenly;
+  text-align: center;
+  color: #8f8f8f;
+}
+
+.home main .Nine img {
+  width: 95px;
+  height: 78px;
+}
+
+.home main .Nine > div {
+  margin-top: 46px;
+}
+
+.home main .everyday {
+  margin-top: 64px;
+}
+
+.home main .everyday .mei {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.home main .everyday .mei h3 {
+  margin-left: 40px;
+  font-size: 32px;
+}
+
+.home main .everyday .mei span {
+  font-size: 24px;
+  margin-top: 5px;
+  margin-left: 14px;
+}
+
+.home main .everyday .Three {
+  margin-top: 22px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+.home main .everyday .Three img {
+  display: block;
+  width: 249px;
+  height: 297px;
+}
+
+.home main .tab {
+  width: 100%;
+  height: 92px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 26px;
+}
+
+.home main .tabs {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.home main .tabs .beautiful {
+  position: absolute;
+  top: 32px;
+  left: 30px;
+  width: 60px;
+  height: 67px;
+}
+
+.home main .tabs .beautiful img {
+  width: 100%;
+  height: 100%;
+}
+
+.home main .tabs .lis {
+  border-top: solid 1px #aaa;
+  width: 100%;
+  height: 301px;
+}
+
+.home main .tabs .lis dl {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  justify-content: space-evenly;
+}
+
+.home main .tabs .lis dl dt {
+  height: 100%;
+  line-height: 301px;
+}
+
+.home main .tabs .lis dl img {
+  margin-top: 65px;
+  display: block;
+  width: 240px;
+  height: 195px;
+}
+
+.home .hong {
+  color: #f00;
+}
